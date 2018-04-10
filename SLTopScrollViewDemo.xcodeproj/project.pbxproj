@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8A7F4A11DAE0F6600D990FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A7F4A01DAE0F6600D990FD /* main.m */; };
+		D8A7F4A41DAE0F6600D990FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A7F4A31DAE0F6600D990FD /* AppDelegate.m */; };
+		D8A7F4A71DAE0F6600D990FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A7F4A61DAE0F6600D990FD /* ViewController.m */; };
+		D8A7F4AA1DAE0F6600D990FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A7F4A81DAE0F6600D990FD /* Main.storyboard */; };
+		D8A7F4AC1DAE0F6600D990FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A7F4AB1DAE0F6600D990FD /* Assets.xcassets */; };
+		D8A7F4AF1DAE0F6600D990FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A7F4AD1DAE0F6600D990FD /* LaunchScreen.storyboard */; };
+		D8A7F4BA1DAE0F6600D990FD /* SLTopScrollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A7F4B91DAE0F6600D990FD /* SLTopScrollViewDemoTests.m */; };
+		D8A7F4C51DAE0F6600D990FD /* SLTopScrollViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A7F4C41DAE0F6600D990FD /* SLTopScrollViewDemoUITests.m */; };
+		D8A7F4D41DAE0F7F00D990FD /* SLScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A7F4D31DAE0F7F00D990FD /* SLScrollViewController.m */; };
+		D8A7F4D71DAE0FCF00D990FD /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A7F4D61DAE0FCF00D990FD /* UIView+Frame.m */; };
+		D8A7F4DE1DAE10CB00D990FD /* slider.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A7F4DA1DAE10CB00D990FD /* slider.png */; };
+		D8A7F4DF1DAE10CB00D990FD /* slider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A7F4DB1DAE10CB00D990FD /* slider@2x.png */; };
+		D8A7F4E01DAE10CB00D990FD /* slider@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A7F4DC1DAE10CB00D990FD /* slider@3x.png */; };
+		D8A7F4E31DAE114500D990FD /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A7F4E21DAE114500D990FD /* MainTableViewController.m */; };
+		D8A7F4E91DAE155E00D990FD /* SLScrollParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A7F4E81DAE155E00D990FD /* SLScrollParentViewController.m */; };
+		D8A7F4EC1DAE187C00D990FD /* SLTopTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A7F4EB1DAE187C00D990FD /* SLTopTitleView.m */; };
+		D8F42FC71DAE1B34005172C2 /* StaticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F42FC41DAE1B34005172C2 /* StaticViewController.m */; };
+		D8F42FC81DAE1B34005172C2 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F42FC61DAE1B34005172C2 /* ScrollViewController.m */; };
+		D8F42FF71DAE1C8D005172C2 /* TestEightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F42FE61DAE1C8D005172C2 /* TestEightVC.m */; };
+		D8F42FF81DAE1C8D005172C2 /* TestFiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F42FE81DAE1C8D005172C2 /* TestFiveVC.m */; };
+		D8F42FF91DAE1C8D005172C2 /* TestFourVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F42FEA1DAE1C8D005172C2 /* TestFourVC.m */; };
+		D8F42FFA1DAE1C8D005172C2 /* TestNineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F42FEC1DAE1C8D005172C2 /* TestNineVC.m */; };
+		D8F42FFB1DAE1C8D005172C2 /* TestOneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F42FEE1DAE1C8D005172C2 /* TestOneVC.m */; };
+		D8F42FFC1DAE1C8D005172C2 /* TestSevenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F42FF01DAE1C8D005172C2 /* TestSevenVC.m */; };
+		D8F42FFD1DAE1C8D005172C2 /* TestSixVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F42FF21DAE1C8D005172C2 /* TestSixVC.m */; };
+		D8F42FFE1DAE1C8D005172C2 /* TestThreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F42FF41DAE1C8D005172C2 /* TestThreeVC.m */; };
+		D8F42FFF1DAE1C8D005172C2 /* TestTwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F42FF61DAE1C8D005172C2 /* TestTwoVC.m */; };
+		D8F430021DAE1DBA005172C2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F430011DAE1DBA005172C2 /* MainViewController.m */; };
+		D8F430051DAE1E12005172C2 /* SLNavigationItemTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F430041DAE1E12005172C2 /* SLNavigationItemTitleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8A7F4B61DAE0F6600D990FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8A7F4941DAE0F6600D990FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8A7F49B1DAE0F6600D990FD;
+			remoteInfo = SLTopScrollViewDemo;
+		};
+		D8A7F4C11DAE0F6600D990FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8A7F4941DAE0F6600D990FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8A7F49B1DAE0F6600D990FD;
+			remoteInfo = SLTopScrollViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8A7F49C1DAE0F6600D990FD /* SLTopScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLTopScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A7F4A01DAE0F6600D990FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8A7F4A21DAE0F6600D990FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8A7F4A31DAE0F6600D990FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8A7F4A51DAE0F6600D990FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8A7F4A61DAE0F6600D990FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8A7F4A91DAE0F6600D990FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8A7F4AB1DAE0F6600D990FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8A7F4AE1DAE0F6600D990FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8A7F4B01DAE0F6600D990FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8A7F4B51DAE0F6600D990FD /* SLTopScrollViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLTopScrollViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A7F4B91DAE0F6600D990FD /* SLTopScrollViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLTopScrollViewDemoTests.m; sourceTree = "<group>"; };
+		D8A7F4BB1DAE0F6600D990FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8A7F4C01DAE0F6600D990FD /* SLTopScrollViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLTopScrollViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A7F4C41DAE0F6600D990FD /* SLTopScrollViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLTopScrollViewDemoUITests.m; sourceTree = "<group>"; };
+		D8A7F4C61DAE0F6600D990FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8A7F4D21DAE0F7F00D990FD /* SLScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLScrollViewController.h; sourceTree = "<group>"; };
+		D8A7F4D31DAE0F7F00D990FD /* SLScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLScrollViewController.m; sourceTree = "<group>"; };
+		D8A7F4D51DAE0FCF00D990FD /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		D8A7F4D61DAE0FCF00D990FD /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		D8A7F4DA1DAE10CB00D990FD /* slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider.png; sourceTree = "<group>"; };
+		D8A7F4DB1DAE10CB00D990FD /* slider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider@2x.png"; sourceTree = "<group>"; };
+		D8A7F4DC1DAE10CB00D990FD /* slider@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider@3x.png"; sourceTree = "<group>"; };
+		D8A7F4E11DAE114500D990FD /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		D8A7F4E21DAE114500D990FD /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		D8A7F4E71DAE155E00D990FD /* SLScrollParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLScrollParentViewController.h; sourceTree = "<group>"; };
+		D8A7F4E81DAE155E00D990FD /* SLScrollParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLScrollParentViewController.m; sourceTree = "<group>"; };
+		D8A7F4EA1DAE187C00D990FD /* SLTopTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLTopTitleView.h; sourceTree = "<group>"; };
+		D8A7F4EB1DAE187C00D990FD /* SLTopTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLTopTitleView.m; sourceTree = "<group>"; };
+		D8F42FC31DAE1B34005172C2 /* StaticViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticViewController.h; sourceTree = "<group>"; };
+		D8F42FC41DAE1B34005172C2 /* StaticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticViewController.m; sourceTree = "<group>"; };
+		D8F42FC51DAE1B34005172C2 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		D8F42FC61DAE1B34005172C2 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
+		D8F42FE51DAE1C8D005172C2 /* TestEightVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestEightVC.h; sourceTree = "<group>"; };
+		D8F42FE61DAE1C8D005172C2 /* TestEightVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestEightVC.m; sourceTree = "<group>"; };
+		D8F42FE71DAE1C8D005172C2 /* TestFiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFiveVC.h; sourceTree = "<group>"; };
+		D8F42FE81DAE1C8D005172C2 /* TestFiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFiveVC.m; sourceTree = "<group>"; };
+		D8F42FE91DAE1C8D005172C2 /* TestFourVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFourVC.h; sourceTree = "<group>"; };
+		D8F42FEA1DAE1C8D005172C2 /* TestFourVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFourVC.m; sourceTree = "<group>"; };
+		D8F42FEB1DAE1C8D005172C2 /* TestNineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNineVC.h; sourceTree = "<group>"; };
+		D8F42FEC1DAE1C8D005172C2 /* TestNineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNineVC.m; sourceTree = "<group>"; };
+		D8F42FED1DAE1C8D005172C2 /* TestOneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestOneVC.h; sourceTree = "<group>"; };
+		D8F42FEE1DAE1C8D005172C2 /* TestOneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestOneVC.m; sourceTree = "<group>"; };
+		D8F42FEF1DAE1C8D005172C2 /* TestSevenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSevenVC.h; sourceTree = "<group>"; };
+		D8F42FF01DAE1C8D005172C2 /* TestSevenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSevenVC.m; sourceTree = "<group>"; };
+		D8F42FF11DAE1C8D005172C2 /* TestSixVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSixVC.h; sourceTree = "<group>"; };
+		D8F42FF21DAE1C8D005172C2 /* TestSixVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSixVC.m; sourceTree = "<group>"; };
+		D8F42FF31DAE1C8D005172C2 /* TestThreeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestThreeVC.h; sourceTree = "<group>"; };
+		D8F42FF41DAE1C8D005172C2 /* TestThreeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestThreeVC.m; sourceTree = "<group>"; };
+		D8F42FF51DAE1C8D005172C2 /* TestTwoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTwoVC.h; sourceTree = "<group>"; };
+		D8F42FF61DAE1C8D005172C2 /* TestTwoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTwoVC.m; sourceTree = "<group>"; };
+		D8F430001DAE1DBA005172C2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D8F430011DAE1DBA005172C2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D8F430031DAE1E12005172C2 /* SLNavigationItemTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLNavigationItemTitleView.h; sourceTree = "<group>"; };
+		D8F430041DAE1E12005172C2 /* SLNavigationItemTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLNavigationItemTitleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8A7F4991DAE0F6600D990FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A7F4B21DAE0F6600D990FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A7F4BD1DAE0F6600D990FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8A7F4931DAE0F6600D990FD = {
+			isa = PBXGroup;
+			children = (
+				D8A7F49E1DAE0F6600D990FD /* SLTopScrollViewDemo */,
+				D8A7F4B81DAE0F6600D990FD /* SLTopScrollViewDemoTests */,
+				D8A7F4C31DAE0F6600D990FD /* SLTopScrollViewDemoUITests */,
+				D8A7F49D1DAE0F6600D990FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8A7F49D1DAE0F6600D990FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8A7F49C1DAE0F6600D990FD /* SLTopScrollViewDemo.app */,
+				D8A7F4B51DAE0F6600D990FD /* SLTopScrollViewDemoTests.xctest */,
+				D8A7F4C01DAE0F6600D990FD /* SLTopScrollViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8A7F49E1DAE0F6600D990FD /* SLTopScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D8A7F4EA1DAE187C00D990FD /* SLTopTitleView.h */,
+				D8A7F4EB1DAE187C00D990FD /* SLTopTitleView.m */,
+				D8F430031DAE1E12005172C2 /* SLNavigationItemTitleView.h */,
+				D8F430041DAE1E12005172C2 /* SLNavigationItemTitleView.m */,
+				D8A7F4D21DAE0F7F00D990FD /* SLScrollViewController.h */,
+				D8A7F4D31DAE0F7F00D990FD /* SLScrollViewController.m */,
+				D8A7F4D81DAE10CB00D990FD /* slider.imageset */,
+				D8A7F4D51DAE0FCF00D990FD /* UIView+Frame.h */,
+				D8A7F4D61DAE0FCF00D990FD /* UIView+Frame.m */,
+				D8A7F4A21DAE0F6600D990FD /* AppDelegate.h */,
+				D8A7F4A31DAE0F6600D990FD /* AppDelegate.m */,
+				D8A7F4E11DAE114500D990FD /* MainTableViewController.h */,
+				D8A7F4E21DAE114500D990FD /* MainTableViewController.m */,
+				D8F430001DAE1DBA005172C2 /* MainViewController.h */,
+				D8F430011DAE1DBA005172C2 /* MainViewController.m */,
+				D8A7F4A51DAE0F6600D990FD /* ViewController.h */,
+				D8A7F4A61DAE0F6600D990FD /* ViewController.m */,
+				D8F42FE41DAE1C8D005172C2 /* TestVC */,
+				D8A7F4E71DAE155E00D990FD /* SLScrollParentViewController.h */,
+				D8A7F4E81DAE155E00D990FD /* SLScrollParentViewController.m */,
+				D8A7F4A81DAE0F6600D990FD /* Main.storyboard */,
+				D8A7F4AB1DAE0F6600D990FD /* Assets.xcassets */,
+				D8A7F4AD1DAE0F6600D990FD /* LaunchScreen.storyboard */,
+				D8A7F4B01DAE0F6600D990FD /* Info.plist */,
+				D8A7F49F1DAE0F6600D990FD /* Supporting Files */,
+			);
+			path = SLTopScrollViewDemo;
+			sourceTree = "<group>";
+		};
+		D8A7F49F1DAE0F6600D990FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8A7F4A01DAE0F6600D990FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8A7F4B81DAE0F6600D990FD /* SLTopScrollViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8A7F4B91DAE0F6600D990FD /* SLTopScrollViewDemoTests.m */,
+				D8A7F4BB1DAE0F6600D990FD /* Info.plist */,
+			);
+			path = SLTopScrollViewDemoTests;
+			sourceTree = "<group>";
+		};
+		D8A7F4C31DAE0F6600D990FD /* SLTopScrollViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8A7F4C41DAE0F6600D990FD /* SLTopScrollViewDemoUITests.m */,
+				D8A7F4C61DAE0F6600D990FD /* Info.plist */,
+			);
+			path = SLTopScrollViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		D8A7F4D81DAE10CB00D990FD /* slider.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				D8A7F4DA1DAE10CB00D990FD /* slider.png */,
+				D8A7F4DB1DAE10CB00D990FD /* slider@2x.png */,
+				D8A7F4DC1DAE10CB00D990FD /* slider@3x.png */,
+				D8F42FC31DAE1B34005172C2 /* StaticViewController.h */,
+				D8F42FC41DAE1B34005172C2 /* StaticViewController.m */,
+				D8F42FC51DAE1B34005172C2 /* ScrollViewController.h */,
+				D8F42FC61DAE1B34005172C2 /* ScrollViewController.m */,
+			);
+			path = slider.imageset;
+			sourceTree = "<group>";
+		};
+		D8F42FE41DAE1C8D005172C2 /* TestVC */ = {
+			isa = PBXGroup;
+			children = (
+				D8F42FE51DAE1C8D005172C2 /* TestEightVC.h */,
+				D8F42FE61DAE1C8D005172C2 /* TestEightVC.m */,
+				D8F42FE71DAE1C8D005172C2 /* TestFiveVC.h */,
+				D8F42FE81DAE1C8D005172C2 /* TestFiveVC.m */,
+				D8F42FE91DAE1C8D005172C2 /* TestFourVC.h */,
+				D8F42FEA1DAE1C8D005172C2 /* TestFourVC.m */,
+				D8F42FEB1DAE1C8D005172C2 /* TestNineVC.h */,
+				D8F42FEC1DAE1C8D005172C2 /* TestNineVC.m */,
+				D8F42FED1DAE1C8D005172C2 /* TestOneVC.h */,
+				D8F42FEE1DAE1C8D005172C2 /* TestOneVC.m */,
+				D8F42FEF1DAE1C8D005172C2 /* TestSevenVC.h */,
+				D8F42FF01DAE1C8D005172C2 /* TestSevenVC.m */,
+				D8F42FF11DAE1C8D005172C2 /* TestSixVC.h */,
+				D8F42FF21DAE1C8D005172C2 /* TestSixVC.m */,
+				D8F42FF31DAE1C8D005172C2 /* TestThreeVC.h */,
+				D8F42FF41DAE1C8D005172C2 /* TestThreeVC.m */,
+				D8F42FF51DAE1C8D005172C2 /* TestTwoVC.h */,
+				D8F42FF61DAE1C8D005172C2 /* TestTwoVC.m */,
+			);
+			path = TestVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8A7F49B1DAE0F6600D990FD /* SLTopScrollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8A7F4C91DAE0F6600D990FD /* Build configuration list for PBXNativeTarget "SLTopScrollViewDemo" */;
+			buildPhases = (
+				D8A7F4981DAE0F6600D990FD /* Sources */,
+				D8A7F4991DAE0F6600D990FD /* Frameworks */,
+				D8A7F49A1DAE0F6600D990FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLTopScrollViewDemo;
+			productName = SLTopScrollViewDemo;
+			productReference = D8A7F49C1DAE0F6600D990FD /* SLTopScrollViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8A7F4B41DAE0F6600D990FD /* SLTopScrollViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8A7F4CC1DAE0F6600D990FD /* Build configuration list for PBXNativeTarget "SLTopScrollViewDemoTests" */;
+			buildPhases = (
+				D8A7F4B11DAE0F6600D990FD /* Sources */,
+				D8A7F4B21DAE0F6600D990FD /* Frameworks */,
+				D8A7F4B31DAE0F6600D990FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8A7F4B71DAE0F6600D990FD /* PBXTargetDependency */,
+			);
+			name = SLTopScrollViewDemoTests;
+			productName = SLTopScrollViewDemoTests;
+			productReference = D8A7F4B51DAE0F6600D990FD /* SLTopScrollViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8A7F4BF1DAE0F6600D990FD /* SLTopScrollViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8A7F4CF1DAE0F6600D990FD /* Build configuration list for PBXNativeTarget "SLTopScrollViewDemoUITests" */;
+			buildPhases = (
+				D8A7F4BC1DAE0F6600D990FD /* Sources */,
+				D8A7F4BD1DAE0F6600D990FD /* Frameworks */,
+				D8A7F4BE1DAE0F6600D990FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8A7F4C21DAE0F6600D990FD /* PBXTargetDependency */,
+			);
+			name = SLTopScrollViewDemoUITests;
+			productName = SLTopScrollViewDemoUITests;
+			productReference = D8A7F4C01DAE0F6600D990FD /* SLTopScrollViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8A7F4941DAE0F6600D990FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = XinHuaTV;
+				TargetAttributes = {
+					D8A7F49B1DAE0F6600D990FD = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SXRG394Q55;
+					};
+					D8A7F4B41DAE0F6600D990FD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D8A7F49B1DAE0F6600D990FD;
+					};
+					D8A7F4BF1DAE0F6600D990FD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D8A7F49B1DAE0F6600D990FD;
+					};
+				};
+			};
+			buildConfigurationList = D8A7F4971DAE0F6600D990FD /* Build configuration list for PBXProject "SLTopScrollViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8A7F4931DAE0F6600D990FD;
+			productRefGroup = D8A7F49D1DAE0F6600D990FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8A7F49B1DAE0F6600D990FD /* SLTopScrollViewDemo */,
+				D8A7F4B41DAE0F6600D990FD /* SLTopScrollViewDemoTests */,
+				D8A7F4BF1DAE0F6600D990FD /* SLTopScrollViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8A7F49A1DAE0F6600D990FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A7F4DE1DAE10CB00D990FD /* slider.png in Resources */,
+				D8A7F4AF1DAE0F6600D990FD /* LaunchScreen.storyboard in Resources */,
+				D8A7F4E01DAE10CB00D990FD /* slider@3x.png in Resources */,
+				D8A7F4AC1DAE0F6600D990FD /* Assets.xcassets in Resources */,
+				D8A7F4AA1DAE0F6600D990FD /* Main.storyboard in Resources */,
+				D8A7F4DF1DAE10CB00D990FD /* slider@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A7F4B31DAE0F6600D990FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A7F4BE1DAE0F6600D990FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8A7F4981DAE0F6600D990FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F42FFA1DAE1C8D005172C2 /* TestNineVC.m in Sources */,
+				D8F42FC71DAE1B34005172C2 /* StaticViewController.m in Sources */,
+				D8A7F4D41DAE0F7F00D990FD /* SLScrollViewController.m in Sources */,
+				D8F430021DAE1DBA005172C2 /* MainViewController.m in Sources */,
+				D8A7F4A71DAE0F6600D990FD /* ViewController.m in Sources */,
+				D8F42FF71DAE1C8D005172C2 /* TestEightVC.m in Sources */,
+				D8A7F4EC1DAE187C00D990FD /* SLTopTitleView.m in Sources */,
+				D8F42FFC1DAE1C8D005172C2 /* TestSevenVC.m in Sources */,
+				D8A7F4E31DAE114500D990FD /* MainTableViewController.m in Sources */,
+				D8F42FF81DAE1C8D005172C2 /* TestFiveVC.m in Sources */,
+				D8F42FFF1DAE1C8D005172C2 /* TestTwoVC.m in Sources */,
+				D8F42FC81DAE1B34005172C2 /* ScrollViewController.m in Sources */,
+				D8F42FF91DAE1C8D005172C2 /* TestFourVC.m in Sources */,
+				D8A7F4A41DAE0F6600D990FD /* AppDelegate.m in Sources */,
+				D8A7F4D71DAE0FCF00D990FD /* UIView+Frame.m in Sources */,
+				D8F42FFB1DAE1C8D005172C2 /* TestOneVC.m in Sources */,
+				D8F42FFE1DAE1C8D005172C2 /* TestThreeVC.m in Sources */,
+				D8F42FFD1DAE1C8D005172C2 /* TestSixVC.m in Sources */,
+				D8F430051DAE1E12005172C2 /* SLNavigationItemTitleView.m in Sources */,
+				D8A7F4E91DAE155E00D990FD /* SLScrollParentViewController.m in Sources */,
+				D8A7F4A11DAE0F6600D990FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A7F4B11DAE0F6600D990FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A7F4BA1DAE0F6600D990FD /* SLTopScrollViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A7F4BC1DAE0F6600D990FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A7F4C51DAE0F6600D990FD /* SLTopScrollViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8A7F4B71DAE0F6600D990FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8A7F49B1DAE0F6600D990FD /* SLTopScrollViewDemo */;
+			targetProxy = D8A7F4B61DAE0F6600D990FD /* PBXContainerItemProxy */;
+		};
+		D8A7F4C21DAE0F6600D990FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8A7F49B1DAE0F6600D990FD /* SLTopScrollViewDemo */;
+			targetProxy = D8A7F4C11DAE0F6600D990FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8A7F4A81DAE0F6600D990FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8A7F4A91DAE0F6600D990FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8A7F4AD1DAE0F6600D990FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8A7F4AE1DAE0F6600D990FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8A7F4C71DAE0F6600D990FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8A7F4C81DAE0F6600D990FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8A7F4CA1DAE0F6600D990FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SXRG394Q55;
+				INFOPLIST_FILE = SLTopScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinhuashixun.SLTopScrollViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8A7F4CB1DAE0F6600D990FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SXRG394Q55;
+				INFOPLIST_FILE = SLTopScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinhuashixun.SLTopScrollViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D8A7F4CD1DAE0F6600D990FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SLTopScrollViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinhuashixun.SLTopScrollViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLTopScrollViewDemo.app/SLTopScrollViewDemo";
+			};
+			name = Debug;
+		};
+		D8A7F4CE1DAE0F6600D990FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SLTopScrollViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinhuashixun.SLTopScrollViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLTopScrollViewDemo.app/SLTopScrollViewDemo";
+			};
+			name = Release;
+		};
+		D8A7F4D01DAE0F6600D990FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SLTopScrollViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinhuashixun.SLTopScrollViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SLTopScrollViewDemo;
+			};
+			name = Debug;
+		};
+		D8A7F4D11DAE0F6600D990FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SLTopScrollViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinhuashixun.SLTopScrollViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SLTopScrollViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8A7F4971DAE0F6600D990FD /* Build configuration list for PBXProject "SLTopScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A7F4C71DAE0F6600D990FD /* Debug */,
+				D8A7F4C81DAE0F6600D990FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8A7F4C91DAE0F6600D990FD /* Build configuration list for PBXNativeTarget "SLTopScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A7F4CA1DAE0F6600D990FD /* Debug */,
+				D8A7F4CB1DAE0F6600D990FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8A7F4CC1DAE0F6600D990FD /* Build configuration list for PBXNativeTarget "SLTopScrollViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A7F4CD1DAE0F6600D990FD /* Debug */,
+				D8A7F4CE1DAE0F6600D990FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8A7F4CF1DAE0F6600D990FD /* Build configuration list for PBXNativeTarget "SLTopScrollViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A7F4D01DAE0F6600D990FD /* Debug */,
+				D8A7F4D11DAE0F6600D990FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8A7F4941DAE0F6600D990FD /* Project object */;
+}
